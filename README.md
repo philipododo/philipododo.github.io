@@ -43,7 +43,7 @@ gh repo create philipododo/resume --public --source . --push
 gh api -X POST repos/philipododo/resume/pages -f "source[branch]=main" -f "source[path]=/"
 ```
 
-If you choose Option B, update the four `https://philipododo.github.io/` URLs in the `<head>` of `index.html` (canonical, og:url, og:image)
+If you choose Option B, update the three `https://philipododo.github.io/` URLs in the `<head>` of `index.html` (canonical, og:url, og:image)
 to `https://philipododo.github.io/resume/`.
 
 ## Updating the résumé
