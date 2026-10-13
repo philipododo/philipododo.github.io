@@ -363,6 +363,7 @@ a:hover { text-decoration-thickness: 2px; }
 .edu li, .certs li { padding: 16px 0; border-bottom: 1px dashed var(--line); }
 .edu li:last-child, .certs li:last-child { border-bottom: 0; }
 .edu-title { font: 600 1.15rem/1.35 var(--font-display); }
+.edu-school { margin-top: 2px; font-weight: 500; color: var(--ink-2); }
 .edu-when { margin-top: 4px; font: 400 .85rem/1.4 var(--font-mono); color: var(--muted); }
 .certs li { color: var(--ink-2); }
 .certs strong { color: var(--ink); font-weight: 600; }
